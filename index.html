@@ -1,24 +1,37 @@
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script type="text/javascript">google.load("jquery", "1.3.2");</script>
+<!-- <link rel="stylesheet" type="text/css" href="./resources/style.css" media="screen" /> -->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="./resources/style.css" media="screen" />
 
 <html lang="en">
 
 <head>
-    <title>This is my paper title</title>
-    <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/
-          if you update and want to force Facebook to re-scrape. -->
+    <title>Listen, denoise, action! Audio-driven motion synthesis with diffusion models</title>
     <meta property="og:image" content="Path to my teaser.jpg" />
-    <meta property="og:title" content="Creative and Descriptive Paper Title." />
+    <meta property="og:title" content="Listen, denoise, action! Audio-driven motion synthesis with diffusion models" />
     <meta property="og:description" content="Paper description." />
     <!-- Twitter automatically scrapes this. Go to https://cards-dev.twitter.com/validator?
         if you update and want to force Twitter to re-scrape. -->
     <meta property="twitter:card" content="summary" />
-    <meta property="twitter:title" content="Creative and Descriptive Paper Title." />
+    <meta property="twitter:title"
+        content="Listen, denoise, action! Audio-driven motion synthesis with diffusion models" />
     <meta property="twitter:description" content="Paper description." />
     <meta property="twitter:image" content="Path to my teaser.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add your Google Analytics tag here -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97476543-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-97476543-1');
+    </script>
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet"> -->
+    <link rel="icon" href="static/figures/icon2.png">
 
     <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/bulma-carousel.min.css">
@@ -35,78 +48,42 @@
     <script src="js/bulma-slider.min.js"></script>
     <script src="js/index.js"></script>
 
-    <!-- Add your Google Analytics tag here -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97476543-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-97476543-1');
-    </script>
-
 </head>
 
 <body>
     <div class="container">
         <div class="title">
-            Creative and Descriptive Paper Title
+            Listen, denoise, action! Audio-driven motion synthesis with diffusion models
         </div>
 
-        <div class="venue">
+        <!-- <div class="venue">
             In Conference 20XX
-        </div>
+        </div> -->
 
         <br><br>
 
         <div class="author">
-            <a href="https://en.wikipedia.org/wiki/James_J._Gibson">First Author</a><sup>1</sup>
+            <a href="https://scholar.google.com/citations?user=qH7NHPgAAAAJ&hl=en">Simon Alexanderson</a><sup>1</sup>
+        </div>
+
+        <div class="author">
+            <a href="https://nagyrajmund.github.io/">Rajmund Nagy</a><sup>1</sup>
         </div>
         <div class="author">
-            <a href="https://en.wikipedia.org/wiki/James_J._Gibson">Second Author</a><sup>2</sup>
+            <a href="https://scholar.google.ca/citations?user=G33Tyb0AAAAJ">Jonas Beskow</a><sup>1</sup>
         </div>
         <div class="author">
-            <a href="https://en.wikipedia.org/wiki/James_J._Gibson">Third Author</a><sup>3</sup>
-        </div>
-        <div class="author">
-            <a href="https://en.wikipedia.org/wiki/James_J._Gibson">Fourth Author</a><sup>4</sup>
-        </div>
-        <div class="author">
-            <a href="https://en.wikipedia.org/wiki/James_J._Gibson">Fifth Author</a><sup>1</sup>
+            <a href="https://people.kth.se/~ghe/">Gustav Eje Henter</a><sup>1</sup>
         </div>
 
         <br><br>
 
-        <div class="affiliation"><sup>1&nbsp;</sup>Affiliation Number One</div>
-        <div class="affiliation"><sup>2&nbsp;</sup>Affiliation Number Two</div>
-        <div class="affiliation"><sup>3&nbsp;</sup>Affiliation Number Three</div>
-        <div class="affiliation"><sup>4&nbsp;</sup>Affiliation Number Four</div>
-
+        <div class="affiliation"><sup>1&nbsp;</sup>KTH Royal Institute of Technology, Sweden</div>
         <br><br>
 
         <div class="links"><a href="">[Paper]</a></div>
         <div class="links"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">[Video]</a></div>
-        <div class="links"><a href="https://github.com/elliottwu/webpage-template">[Code]</a></div>
-
-        <br><br>
-
-
-        <hr>
-        <a href="https://hits.seeyoufarm.com"><img
-                src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ftrjachyqzu.github.io%2Fyeehaw%2F&count_bg=%2379C83D&title_bg=%23555555&icon=darkreader.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false" /></a>
-
-        <a href="https://hits.seeyoufarm.com" style="display: none;"><img
-                src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ftrjachyqzu.github.io%2Fyeehaw%2F&count_bg=%2379C83D&title_bg=%23555555&icon=darkreader.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false" /></a>
-        <hr>
-
-
-        <h1>Video</h1>
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
+        <div class="links">[Code] (will be released later)</div>
 
         <br><br>
         <hr>
@@ -114,108 +91,166 @@
         <!-- Abstract. -->
         <!-- <div class="columns is-centered has-text-centered"> -->
         <!-- <div class="column is-four-fifths"> -->
-        <!-- <div class="item">
+        <div class="item">
             <p style="margin-bottom: 30px">
                 <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
-                    <source src="resources/mdm/MDM-page.mp4" type="video/mp4">
+                    <source src="resources/presentation.mp4" type="video/mp4">
                 </video>
             </p>
         </div>
-        <br><br>
-        <hr> -->
+
+
+        <hr>
 
         <h1>Abstract</h1>
         <p style="width: 80%;">
-            This is my abstract.
+            Diffusion models have experienced a surge of interest as highly expressive yet efficiently trainable
+            probabilistic models. We show that these models are an excellent fit for synthesising human motion that
+            co-occurs with audio, for example co-speech gesticulation, since motion is complex and highly ambiguous
+            given audio, calling for a probabilistic description. Specifically, we adapt the DiffWave architecture to
+            model 3D pose sequences, putting Conformers in place of dilated convolutions for improved accuracy. We also
+            demonstrate control over motion style, using classifier-free guidance to adjust the strength of the
+            stylistic expression. Gesture-generation experiments on the Trinity Speech-Gesture and ZeroEGGS datasets
+            confirm that the proposed method achieves top-of-the-line motion quality, with distinctive styles whose
+            expression can be made more or less pronounced. We also synthesise dance motion and path-driven locomotion
+            using the same model architecture. Finally, we extend the guidance procedure to perform style interpolation
+            in a manner that is appealing for synthesis tasks and has connections to product-of-experts models, a
+            contribution we believe is of independent interest.
         </p>
+        <br>
 
-        <br><br>
         <hr>
-
-        <h1>Setting 1</h1>
+        <h1>Gesture generation without style-conditioning</h1>
 
         <!-- <section class="hero is-small"> -->
         <!-- <div class="hero-body"> -->
-        <div class="column is-centered has-text-centered">
+        <!-- <div class="column is-centered has-text-centered">
             <h2>Ground truth:</h2>
             <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
-                <source src="resources/mdm/kick9.mp4" type="video/mp4">
+                <source src="resources/tsg_good_examples/TestSeq001_3_GD_v13_000.mp4" type="video/mp4">
             </video>
         </div>
-        <br>
+        <br> -->
         <div class="container">
             <h2>Samples from our model:</h2>
             <div id="results-carousel" class="carousel results-carousel" style="display:inline;">
                 <div class="column is-centered has-text-centered">
                     <video poster="" controls loop playsinline height="100%" autoplay>
-                        <source src="resources/mdm/kick1.mp4" type="video/mp4">
+                        <source src="resources/tsg_good_examples/TestSeq001_3_GD_v13_000.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="column is-centered has-text-centered">
-                    <video poster="" controls loop playsinline height="100%" autoplay>
-                        <source src="resources/mdm/kick2.mp4" type="video/mp4">
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/tsg_good_examples/TestSeq002_2_GD_v13_000.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="column is-centered has-text-centered">
-                    <video poster="" controls loop playsinline height="100%" autoplay>
-                        <source src="resources/mdm/kick3.mp4" type="video/mp4">
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/tsg_good_examples/TestSeq002_3_GD_v13_000.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="column is-centered has-text-centered">
-                    <video poster="" controls loop playsinline height="100%" autoplay>
-                        <source src="resources/mdm/kick4.mp4" type="video/mp4">
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/tsg_good_examples/TestSeq006_2_GD_v13_000.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
         </div>
 
-        <br><br>
-        <hr>
-        <h1>Setting 2</h1>
 
-        <!-- <section class="hero is-small"> -->
-        <!-- <div class="hero-body"> -->
-        <div class="column is-centered has-text-centered">
-            <h2>Ground truth:</h2>
-            <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
-                <source src="resources/mdm/kick9.mp4" type="video/mp4">
-            </video>
-        </div>
 
-        <div class="container">
-            <h2>Samples from our model:</h2>
-            <div id="results-carousel" class="carousel results-carousel" style="display:inline;">
-                <div class="column is-centered has-text-centered">
-                    <video poster="" controls loop playsinline height="100%" autoplay>
-                        <source src="resources/mdm/kick1.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="column is-centered has-text-centered">
-                    <video poster="" controls loop playsinline height="100%" autoplay>
-                        <source src="resources/mdm/kick2.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="column is-centered has-text-centered">
-                    <video poster="" controls loop playsinline height="100%" autoplay>
-                        <source src="resources/mdm/kick3.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="column is-centered has-text-centered">
-                    <video poster="" controls loop playsinline height="100%" autoplay>
-                        <source src="resources/mdm/kick4.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-        </div>
         <hr>
         <br>
+        <!-- <h1>Gesture generation with style-conditioning</h1> -->
+        <h1>Gestures generated for the same audio in different styles:</h1>
+        <div class="container">
+            <div id="results-carousel" class="carousel results-carousel" style="display:inline;">
+                <div class="column is-centered has-text-centered">
+                    <h2>A person giving a speech:</h2>
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/zeggs/005_Neutral_4_x_1_0_Speech_0_GDS_000.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="column is-centered has-text-centered">
+                    <h2>An angry person:</h2>
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/zeggs/005_Neutral_4_x_1_0_Angry_0_GDS_000.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="column is-centered has-text-centered">
+                    <h2>A flirty person:</h2>
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/zeggs/005_Neutral_4_x_1_0_Flirty_0_GDS_000.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="column is-centered has-text-centered">
+                    <h2>A tired person:</h2>
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/zeggs/005_Neutral_4_x_1_0_Tired_0_GDS_000.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
 
-
-
-
+        <br>
         <hr>
 
-
+        <h1>Dance generation from music</h1>
+        <div class="container">
+            <h2>Casual dance</h2>
+            <div id="results-carousel" class="carousel results-carousel" style="display:inline;">
+                <div class="column is-centered has-text-centered">
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/dance_batch/aistpp_gMH_sFM_cAll_d23_mMH3_ch11_kthmisc_gCA_0_000.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+                <div class="column is-centered has-text-centered">
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/dance_batch/aistpp_gMH_sFM_cAll_d23_mMH3_ch11_kthmisc_gCA_1_000.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+                <div class="column is-centered has-text-centered">
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/dance_batch/aistpp_gMH_sFM_cAll_d23_mMH3_ch11_kthmisc_gCA_2_000.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <h2>Charleston jazz</h2>
+            <div id="results-carousel" class="carousel results-carousel" style="display:inline;">
+                <div class="column is-centered has-text-centered">
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/dance_batch/kthjazz_gTP_sFM_sngl_d02_016_kthjazz_gCH_0_000.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+                <div class="column is-centered has-text-centered">
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/dance_batch/kthjazz_gTP_sFM_sngl_d02_016_kthjazz_gCH_1_000.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+                <div class="column is-centered has-text-centered">
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/dance_batch/kthjazz_gTP_sFM_sngl_d02_016_kthjazz_gCH_2_000.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+                <div class="column is-centered has-text-centered">
+                    <video poster="" controls loop playsinline height="100%" style="padding: 20px;">
+                        <source src="resources/dance_batch/kthjazz_gTP_sFM_sngl_d02_016_kthjazz_gCH_3_000.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- 
         <h1>Method Overview</h1>
         <img style="width: 80%;" src="./resources/method.jpg" alt="Method overview figure" />
         <br>
@@ -228,7 +263,7 @@
         <img style="width: 80%;" src="./resources/results.jpg" alt="Results figure" />
 
         <br><br>
-        <hr>
+        <hr> -->
 
         <h1>Paper</h1>
         <div class="paper-thumbnail">
@@ -237,11 +272,11 @@
             </a>
         </div>
         <div class="paper-info">
-            <h3>Creative and Descriptive Paper Title</h3>
+            <h3>Listen, denoise, action! Audio-driven motion synthesis with diffusion models</h3>
             <p>First Author, Second Author, Third Author, Fourth Author, and Fifth Author</p>
             <p>In Conference, 20XX.</p>
             <pre><code>@InProceedings{author20XXtitle,
-    title = {Creative and Descriptive Paper Title},
+    title = {Listen, denoise, action! Audio-driven motion synthesis with diffusion models},
     author = {Author, First and Author, Second and Author, Third and Author, Fourth and Author, Fifth},
     booktitle = {Conference},
     year = {20XX},
@@ -262,7 +297,6 @@
 
         <br><br>
     </div>
-
 </body>
 
 </html>

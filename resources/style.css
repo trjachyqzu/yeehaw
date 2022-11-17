@@ -39,17 +39,38 @@ body {
 .links {
     font-size: 22px;
     width: 95%;
-    max-width: 150px;
+    max-width: 600px;
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
 }
 
 .video-container {
     position: relative;
     overflow: hidden;
     width: 80%;
-    padding-top: 45%; /* Formula for 16:9 Aspect Ratio: width * 9 / 16 */
+    padding-top: 45%;
+    /* Formula for 16:9 Aspect Ratio: width * 9 / 16 */
 }
 
 .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container video {
     position: absolute;
     top: 0;
     left: 0;
@@ -141,7 +162,8 @@ pre code {
     font-size: 14px;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #1367a7;
     text-decoration: none;
 }
@@ -153,17 +175,28 @@ a:hover {
 .layered-paper-big {
     /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
     box-shadow:
-            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
-            5px 5px 0 0px #fff, /* The second layer */
-            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
-            10px 10px 0 0px #fff, /* The third layer */
-            10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
-            15px 15px 0 0px #fff, /* The fourth layer */
-            15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
-            20px 20px 0 0px #fff, /* The fifth layer */
-            20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
-            25px 25px 0 0px #fff, /* The fifth layer */
-            25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+        0px 0px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The top layer shadow */
+        5px 5px 0 0px #fff,
+        /* The second layer */
+        5px 5px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The second layer shadow */
+        10px 10px 0 0px #fff,
+        /* The third layer */
+        10px 10px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The third layer shadow */
+        15px 15px 0 0px #fff,
+        /* The fourth layer */
+        15px 15px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The fourth layer shadow */
+        20px 20px 0 0px #fff,
+        /* The fifth layer */
+        20px 20px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The fifth layer shadow */
+        25px 25px 0 0px #fff,
+        /* The fifth layer */
+        25px 25px 1px 1px rgba(0, 0, 0, 0.35);
+    /* The fifth layer shadow */
     margin-left: 10px;
     margin-right: 45px;
 }
